@@ -64,23 +64,24 @@ main {
 }
 .temperature {
   font-size: 50px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 30px 30px;
-  border-radius: 20%;
-  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15%;
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.2);
   border: none;
   background: none;
-  background-color: rgba(255, 255, 255, 0.5);
+
+  background-color: rgba(0, 0, 0, 0.8);
   appearance: none;
   border: none;
   outline: none;
 }
 .cardTemperature {
-  padding: 60px;
+  padding: 80px;
   border-radius: 15%;
-  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 5px rgba(0, 0, 0, 0.2);
   border: none;
   background: none;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   appearance: none;
 }
