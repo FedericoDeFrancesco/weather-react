@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const barra = () => {
   return (
@@ -14,14 +13,6 @@ const barra = () => {
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
         </Container>
-        <div className="searchBox">
-          <div>
-            <input type="text" className="search-bar" placeholder="Search..." />
-          </div>
-          <div>
-            <i class="fas fa-search"></i>
-          </div>
-        </div>
       </Navbar>
     </div>
   );

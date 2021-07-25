@@ -4,14 +4,81 @@
   box-sizing: border-box;
 }
 .searchBox {
-  margin-right: 20px;
+  width: 100%;
+  margin-right: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar {
+  border-radius: 0px 0px 16px 16px;
+  border: none;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  appearance: none;
+
+  border: none;
+  outline: none;
+  width: 35vh;
+  height: 4vh;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
 }
 .search-bar::placeholder {
-  font-size: 16px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.74);
+}
+.contenitore input {
+  padding-left: 15px;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 20px;
 }
 main {
-  min-height: 100vh;
-  background-image: url("./image/paper.jpg");
+  background-image: url("./image/forest.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: inherit;
+  height: 100vh;
+  transition: 0.4 ease-out;
+}
+.container_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10vh;
+}
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  height: 5vh;
+}
+.date {
+  color: white;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.temperature {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  padding: 30px 30px;
+  border-radius: 20%;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  appearance: none;
+  border: none;
+  outline: none;
+}
+.cardTemperature {
+  padding: 60px;
+  border-radius: 15%;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  appearance: none;
 }
